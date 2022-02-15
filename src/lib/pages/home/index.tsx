@@ -1,6 +1,8 @@
 import { Box } from "@chakra-ui/react";
 
-import Login from "lib/components/samples/Login";
+import CTASection from "lib/components/samples/CTASection";
+import SomeImage from "lib/components/samples/SomeImage";
+import SomeText from "lib/components/samples/SomeText";
 
 const Home = () => {
   return (
@@ -12,12 +14,12 @@ const Home = () => {
       mb={8}
       w="full"
     >
-      <Login />
+      <SomeImage />
 
-      {/* <Box>
+      <Box>
         <SomeText />
         <CTASection />
-      </Box> */}
+      </Box>
     </Box>
   );
 };
